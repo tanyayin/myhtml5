@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>全局属性</title>
+<style type="text/css">
+p {color:#60F;}
+</style>
+<script type="text/javascript">
+document.designMode='off';
+</script>
+</head>
+
+<body>
+<section>
+  <h3>contentEditable属性</h3>
+  <p>该属性主要功能是允许用户编辑元素中的内容，所以该元素必须是可以获得鼠标焦点的元素，而且在点击鼠标后要向用户提供一个插入符号，提示用户该元素中的内容允许编辑。contentEditable属性是一个布尔值属性，可以被指定为true或false</p>
+  <ul contenteditable="true">
+    <li>列表1</li>
+    <li>列表2</li>
+    <li>列表3</li>
+    <li>列表4</li>
+  </ul>
+</section>
+<section>
+<h3>spellcheck 它的功能为对用户输入的文本内容进行拼写和语法检查。</h3>
+  <textarea name="" id="" cols="30" rows="10" spellcheck="true">
+  hello,my name is Lily!
+  I like applee
+  </textarea>
+</section>
+<h3>tabindex </h3><p>当不断敲击Tab键让窗口或页面中的空间获得焦点，对窗口或页面中的所有控件进行遍历的时候，每一个控件的tabindex表示是第几个被访问</p>
+<input type="text" tabindex="-1">
+
+<h3>hidden</h3>
+<p></p>
+<input type="text" hidden="true">
+<input type="text" hidden="false">
+
+</body>
+</html>
